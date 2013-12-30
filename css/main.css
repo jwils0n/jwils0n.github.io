@@ -1,0 +1,9 @@
+.jumbotron {
+	background-color: #11aad9;
+	color: #FFF;
+}
+
+.jumbotron .btn {
+	background-color: #EEE;
+	color: #333;
+}
