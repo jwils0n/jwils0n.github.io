@@ -13,13 +13,15 @@ var core = (function () {
         ['HTML/CSS',        9.5],
         ['OOP PHP',         8.5],
         ['ActionScript 3',  6],
-        ['C#/.NET',         5],
+        ['C#/.NET',         4],
         ['MySQL',           7]
       ]),
 
       options = {
         // title: 'Test',
-        legend: { position: 'none' }
+        legend: { position: 'none' },
+        colors: ['#11aad9'],
+        hAxis: { minValue: 0 }
       },
 
       chart = new google.visualization.BarChart(document.getElementById('skills-graph'));
@@ -35,4 +37,4 @@ var core = (function () {
   };
 })();
 
-// core.init();
+core.init();
