@@ -20,7 +20,7 @@ var core = (function () {
       options = {
         // title: 'Test',
         legend: { position: 'none' },
-        colors: ['#11aad9'],
+        colors: ['#CCC'],
         hAxis: { minValue: 0 }
       },
 

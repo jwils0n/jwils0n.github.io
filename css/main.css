@@ -10,9 +10,13 @@
 }
 
 .jumbotron .subtitle {
-	margin: -20px 0 40px 25px;
+	margin: -20px 0 10px 25px;
 	letter-spacing: 6px;
 	font-size: 19px;
+}
+
+.jumbotron .btn-group {
+	margin-left: 35px;
 }
 
 .jumbotron .btn {
@@ -25,6 +29,6 @@
 }
 
 #skills-graph {
-	height: 300px;
+	height: 500px;
 	margin-bottom: 20px;
 }
