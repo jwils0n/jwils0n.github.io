@@ -6,7 +6,7 @@ var core = (function () {
 
 	return {
 		init: function () {
-			IN.API.Profile(37178410).result(fetchSuccess);
+			IN.API.Profile([37178410]).result(fetchSuccess);
 		}
 	};
 })();
