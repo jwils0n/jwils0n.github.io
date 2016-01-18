@@ -1,34 +1,15 @@
-.jumbotron {
-	background-color: #11aad9;
-	color: #FFF;
+.container {
+	margin-top: 20%;
 }
 
-.jumbotron h1 span {
-	font-size: 75px;
+.links {
+	width: 50%;
+	margin: 10px auto 0;
 	position: relative;
-	top: 4px;
 }
 
-.jumbotron .subtitle {
-	margin: -20px 0 10px 25px;
-	letter-spacing: 6px;
-	font-size: 19px;
-}
-
-.jumbotron .btn-group {
-	margin-left: 35px;
-}
-
-.jumbotron .btn {
-	background-color: #EEE;
-	color: #333;
-}
-
-.panel-body .list-group {
-	margin-bottom: 0;
-}
-
-#skills-graph {
-	height: 500px;
-	margin-bottom: 20px;
+.links a {
+	width: 33%;
+	float: left;
+	display: block;
 }
