@@ -7,14 +7,21 @@ html, body {
 	top: 30%;
 }
 
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 45px;
+}
+
 .links {
 	width: 50%;
 	margin: 10px auto 0;
 	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .links a {
 	width: 33%;
 	float: left;
 	display: block;
+	font-size: 16px;
 }
